@@ -13,3 +13,17 @@ Content-Type: application/json
     "name": "Juan Suarez",
     "number": "44-2222-1234"
 }
+
+###
+
+GET http://localhost:3001/api/persons/63e80ab7362e19408f5220a4
+
+###
+
+PUT http://localhost:3001/api/persons/63e80b1f3752c948004dc92c
+Content-Type: application/json
+
+{
+    "name": "Peter Parker",
+    "number": "1234-4321"
+}
